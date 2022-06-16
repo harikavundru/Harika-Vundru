@@ -10,19 +10,19 @@ Write your code in this editor and press "Run" button to compile and execute it.
 #include <math.h>
 int main()
 {
-    int phy,chem,math,cs,eng,sum,avg;
+    float phy,chem,math,cs,eng,sum,avg;
     printf("Enter Physics marks: ");
-    scanf("%d",&phy);
+    scanf("%f",&phy);
     printf("Enter Chemistry marks: ");
-    scanf("%d",&chem);
+    scanf("%f",&chem);
     printf("Enter Mathematics marks: ");
-    scanf("%d",&math);
+    scanf("%f",&math);
     printf("Enter CS marks: ");
-    scanf("%d",&cs);
+    scanf("%f",&cs);
     printf("Enter English marks: ");
-    scanf("%d",&eng);
+    scanf("%f",&eng);
     sum = phy + chem + math + cs + eng;
     avg = sum/5;
-    printf("The average is %d",avg);
+    printf("The average is %.2f",avg);
     return 0;
 }
